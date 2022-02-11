@@ -1,0 +1,308 @@
+/* OLD FONT @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /*font-family: 'Cantarell', sans-serif;*/
+  font-family: 'Mukta', sans-serif;
+  /*normal background*/
+  /*background-image: url(https://i.ibb.co/dmszKPn/shutterstock-3004568.jpg);*/
+  /*dark background*/
+  background-image: url(https://i.ibb.co/YB41WJf/dark-background.png);
+  background-color: #1c1c1c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  margin-bottom: 270px;
+}
+
+#navbar-logo {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 3em;
+  padding-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+
+  color: #ffffff;
+}
+
+.d-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 270px; /* Set the fixed height of the footer here */
+  background-color: #1c1c1c;
+}
+
+.d-footer > p, .d-footer > a > p {
+  padding-top: 15px;
+  padding-left: 10px;
+  color: rgba(255,255,255,.5);
+}
+
+.top-logo {
+  display: block;
+  width: 96%;
+  margin: 3em auto;
+  max-width: 700px;
+}
+
+h1 {
+  text-align: center;
+  padding: 0 10px 1em 10px;
+  text-shadow: #000 3px 3px 3px;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 8px !important;
+  border: 2px solid #000 !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container > .drillrow {
+  margin-top: 1em;
+  border: solid 2px #000;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.drillpic {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.drillrow > .col-md-8, .drillrow > .col-md-4, .drillrow > .col-md-6 {
+  background-color: #4a4a4a;
+}
+
+.drillrow > .col-md-8, .drillrow > .col-md-6, .drillrow > .col-md-4 {
+  padding: 15px;
+}
+
+.dates {
+  text-align: center;
+  margin-top: -2.3em;
+}
+
+.video_wrapper {
+  background-color: #4a4a4a;
+  border: 2px solid #000;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+
+.padding {
+  height: 30px;
+}
+
+.bigtext {
+  padding-top: 1.3em;
+}
+
+.textytext {
+  background-color: #4a4a4a;
+  padding: 1.8em;
+  font-size: 1.1em;
+  text-indent: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.text-wrapper > p {
+  padding-bottom: 1.2em !important;
+}
+
+.textytext > h3 {
+  text-indent: 0 !important;
+  text-align: center;
+}
+
+.textytext > img {
+  padding-bottom: 10px;
+  max-width: 200px;
+}
+
+.drillrow {
+  background-color: #4a4a4a;
+}
+
+#foundingtrio {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact_header {
+  text-align: center;
+}
+
+.contact > p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.contact > a:hover {
+  text-decoration: underline !important;
+}
+
+.d-footer > a:hover {
+    text-decoration: underline !important;
+}
+
+.space {
+  margin-top: 1em;
+}
+
+hr {
+  height:2px;
+  border-width:0;
+  color:#fff;
+  background-color:#fff;
+  max-width: 500px;
+}
+
+.SHORT {
+  max-width: 700px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.STRONG {
+  font-weight: bold !important;
+}
+
+.text-wrapper {
+  max-width: 700px !important;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.UL { /*underline*/
+  text-decoration: underline;
+}
+
+.region {
+  font-size: 1.9em;
+}
+
+.drillcom_employees > .contact_header {
+
+}
+
+.z > p {
+  padding-bottom: 20px;
+}
+
+.padding_small {
+  height: 10px;
+}
+
+.china {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+i {
+  font-size: 0.9em;
+}
+
+.breakers /*changing bootstrap attributes, class of the table tag itself*/{
+  text-align: center !important;
+  background-color: #4a4a4a !important;
+  border: 2px solid #000 !important;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emrow /*emphasized row*/{
+  background-color: #303030 !important;
+}
+
+.table-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.st /*smaller text*/ {
+  font-size: 0.7em;
+}
+
+.download {
+  background-color: #4a4a4a !important;
+  border: 1px solid #000 !important;
+  width: 6em;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.download:hover {
+  background-color: #303030 !important;
+}
+
+.no-text-deco {
+  text-decoration: none !important;
+}
+
+.videorow {
+  border: 2px solid #000 !important;
+  border-radius: 10px;
+  background-color: #4a4a4a;
+}
+
+.videorow > .col-md-6 {
+  padding: 15px;
+}
+
+.videorow:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.video_link:hover {
+  text-decoration: none !important;
+}
+
+.emoji {
+  margin-left: 6px;
+}
+
+video {
+  border: 2px solid #000;
+  border-radius: 5px;
+}
